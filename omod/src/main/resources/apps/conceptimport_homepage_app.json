@@ -1,0 +1,17 @@
+[{
+  "id": "conceptimport.referenceapplication.ugandaemrsync",
+  "description": "UgandaEMR Sync Page",
+  "order": 5,
+  "extensions": [
+    {
+      "id": "conceptimport.referenceapplication.ugandaemrsync.homepageLink",
+      "extensionPointId": "systemAdministration.apps",
+      "type": "link",
+      "label": "UgandaEMR Sync",
+      "url": "conceptimport/conceptimport.page",
+      "icon": " icon-cog",
+      "requiredPrivilege": "App: coreapps.systemAdministration"
+    }
+  ]
+}
+]
